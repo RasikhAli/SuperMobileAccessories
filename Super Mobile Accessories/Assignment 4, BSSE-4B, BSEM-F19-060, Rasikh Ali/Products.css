@@ -1,0 +1,294 @@
+.divbanner
+{
+	min-height: 500px;
+}
+
+.divproducts
+{
+	background-color: rgba(0,0,0, 0.3) !important;
+	position: absolute;
+	top: 107%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 90%;
+}
+.divproducts a
+{
+	color: black;
+}
+.divproducts a:hover
+{
+	color: rgb(225,138,7);
+}
+
+
+.divheading
+{
+	text-shadow: -1px 0 rgb(225,138,7), 0 1px rgb(225,138,7), 1px 0 rgb(225,138,7), 0 -1px rgb(225,138,7);
+}
+
+.product1
+{
+	background-image: url('https://i.ibb.co/THTnvQd/143257745-101391878636686-4104619594979026491-n.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	border-radius: 15px;
+	border: 1px dotted rgb(225, 138, 7);
+	width: 20%;
+	min-height: 230px;
+	float: left;
+	margin-right: 60px;
+	filter: brightness(40%);
+	transition: transform .5s, filter 1.5s ease;
+}
+.product2
+{
+	background-image: url('https://i.ibb.co/8mL0nfB/142114471-101361305306410-2325627881793470297-n.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	border-radius: 15px;
+	border: 1px dotted rgb(225, 138, 7);
+	width: 20%;
+	min-height: 230px;
+	float: left;
+	margin-right: 60px;
+	filter: brightness(40%);
+	transition: transform .5s, filter 1.5s ease;
+}
+.product3
+{
+	background-image: url('https://i.ibb.co/3SCmPbn/142414263-101377558638118-3684385458910283815-n.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	border-radius: 15px;
+	border: 1px dotted rgb(225, 138, 7);
+	width: 20%;
+	min-height: 230px;
+	float: left;
+	margin-right: 60px;
+	filter: brightness(40%);
+	transition: transform .5s, filter 1.5s ease;
+}
+.product4
+{
+	background-image: url('https://i.ibb.co/bKRT1CH/142758463-101380875304453-8211372286329994909-n.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	border-radius: 15px;
+	border: 1px dotted rgb(225, 138, 7);
+	width: 20%;
+	min-height: 230px;
+	float: left;
+	margin-right: 60px;
+	filter: brightness(40%);
+	transition: transform .5s, filter 1.5s ease;
+}
+.product5
+{
+	background-image: url('https://i.ibb.co/6sh5rdc/142674420-101399558635918-121954306042849792-n.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	border-radius: 15px;
+	border: 1px dotted rgb(225, 138, 7);
+	width: 20%;
+	min-height: 230px;
+	float: left;
+	margin-right: 60px;
+	margin-top: 5%;
+	filter: brightness(40%);
+	transition: transform .5s, filter 1.5s ease;
+}
+.product6
+{
+	background-image: url('https://i.ibb.co/cgvSQ9T/142429980-101361268639747-9106984457664335024-n.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	border-radius: 15px;
+	border: 1px dotted rgb(225, 138, 7);
+	width: 20%;
+	min-height: 230px;
+	float: left;
+	margin-right: 60px;
+	margin-top: 5%;
+	filter: brightness(40%);
+	transition: transform .5s, filter 1.5s ease;
+}
+.product7
+{
+	background-image: url('https://i.ibb.co/zmbLzNc/142431964-101361231973084-5518581422065176563-n.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	border-radius: 15px;
+	border: 1px dotted rgb(225, 138, 7);
+	width: 20%;
+	min-height: 230px;
+	float: left;
+	margin-right: 60px;
+	margin-top: 5%;
+	filter: brightness(40%);
+	transition: transform .5s, filter 1.5s ease;
+}
+.product8
+{
+	background-image: url('https://i.ibb.co/RzzsZqr/a7554a5f8abea82a199fb7c42bd47c16.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	border-radius: 15px;
+	border: 1px dotted rgb(225, 138, 7);
+	width: 20%;
+	min-height: 230px;
+	float: left;
+	margin-right: 60px;
+	margin-top: 5%;
+	filter: brightness(40%);
+	transition: transform .5s, filter 1.5s ease;
+}
+
+
+.text1, .text2, .text3, .text4
+{
+	float: left;
+	font-size: 20px;
+	width: 15%;
+	margin-left: 3%;
+	margin-right: 7%;
+	transition: transform .5s, filter 1.5s ease;
+	text-shadow: -1px 0 rgb(225,138,7), 0 1px rgb(225,138,7), 1px 0 rgb(225,138,7), 0 -1px rgb(225,138,7);
+}
+.text5, .text6, .text7, .text8
+{
+	float: left;
+	font-size: 20px;
+	width: 15%;
+	margin-left: 3%;
+	margin-right: 7%;
+	margin-bottom: 25px;
+	transition: transform .5s, filter 1.5s ease;
+	text-shadow: -1px 0 rgb(225,138,7), 0 1px rgb(225,138,7), 1px 0 rgb(225,138,7), 0 -1px rgb(225,138,7);
+}
+
+.product1:hover,.product2:hover,.product3:hover,
+.product4:hover,.product5:hover,.product6:hover,
+.product7:hover,.product8:hover,
+.text1:hover,.text2:hover,.text3:hover,.text4:hover,
+.text5:hover,.text6:hover,.text7:hover,.text8:hover
+{
+	filter: brightness(95%);
+	transform: scale(1.1);
+	border-color: silver;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	transition: 1s;
+}
+
+@media only screen and (max-width: 1430px)
+{
+	.divbanner
+	{
+		min-height: 400px;
+	}
+
+	.divproducts
+	{
+		top: 105%  !important;
+		min-height: 90%  !important;
+	}
+
+	.product1, .product2, .product3, .product4, .product5, .product6, .product7, .product8
+	{
+		width: 19%;
+		min-height: 240px;
+	}
+
+	.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8
+	{
+		width: 14%;
+		font-size: 15px;
+
+	}
+}
+@media only screen and (max-width: 1330px)
+{
+	.divbanner
+	{
+		min-height: 400px;
+	}
+
+	.divproducts
+	{
+		top: 95%  !important;
+		min-height: 60%  !important;
+	}
+
+	.product1, .product2, .product3, .product4, .product5, .product6, .product7, .product8
+	{
+		width: 18%;
+		min-height: 150px;
+	}
+
+	.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8
+	{
+		width: 14%;
+		font-size: 15px;
+
+	}
+}
+@media only screen and (max-width: 1090px)
+{
+	.divbanner
+	{
+		min-height: 400px;
+	}
+
+	.divproducts
+	{
+		top: 100%  !important;
+		min-height: 60%  !important;
+	}
+
+	.product1, .product2, .product3, .product4, .product5, .product6, .product7, .product8
+	{
+		width: 14%;
+		min-height: 150px;
+	}
+
+	.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8
+	{
+		width: 14%;
+		font-size: 10px;
+
+	}
+}
+@media only screen and (max-width: 800px)
+{
+	.divbanner
+	{
+		min-height: 400px;
+	}
+
+	.divproducts
+	{
+		top: 75%  !important;
+		min-height: 50%  !important;
+	}
+
+	.product1, .product2, .product3, .product4, .product5, .product6, .product7, .product8
+	{
+		width: 15%;
+		min-height: 100px;
+	}
+
+	.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8
+	{
+		width: 14%;
+		font-size: 15px;
+
+	}
+}

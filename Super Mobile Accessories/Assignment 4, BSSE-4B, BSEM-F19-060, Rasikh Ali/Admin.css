@@ -1,0 +1,74 @@
+.divBG
+{
+	background-image: url('https://i.ibb.co/T0214Nv/Split-Shire-8098-1800x1200.jpg') !important;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	min-height: 2550px;
+	filter: invert(0.05);
+	padding-top: 0.2%;
+}
+@media only screen and (max-width: 800px)
+{
+	.divBG
+	{
+		min-height: 1000px;
+	}
+}
+.divAVUD
+{
+	box-shadow: 0px 0px 5px 5px rgb(225,138,7);
+	border-radius: 5%;
+	background-color: rgba(0,0,0,0.3);
+	min-height: 600px;
+	width: 45%;
+	margin: 4%;
+	margin-top: 6%;
+	margin-right: 1%;
+	margin-left: 3%;
+}
+.divAVUD h1
+{
+	text-shadow: -1px 0 rgb(225,138,7), 0 1px rgb(225,138,7), 1px 0 rgb(225,138,7), 0 -1px rgb(225,138,7);
+}
+.divAVUD p
+{
+	font-weight: bold;
+	font-size: 16px;
+	color: white;
+	line-height: 0;
+}
+.AVUD
+{
+	width: 100%;
+	margin-top: 40px;
+}
+.AVUD input, .butn
+{
+	width: 60%;
+	padding: 16px;
+	border: none;
+	border-radius: 5px;
+	margin: -3px;
+	opacity: 0.85;
+	font-size: 17px;
+	line-height: 20px;
+	text-decoration: none; /* remove underline from anchors */
+}
+.AVUD input:hover
+{
+	opacity: 1;
+}
+.AVUD input[type=submit] 
+{
+	width: 60%;
+	background-color: rgb(225,138,7);
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+}
+.divAVUD hr
+{
+	border: none;
+	border-top: 1px dashed rgb(225,138,7); /* dashed, dotted, solid*/
+}

@@ -1,0 +1,159 @@
+.divBG
+{
+	background-image: url('https://i.ibb.co/T0214Nv/Split-Shire-8098-1800x1200.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	min-height: 750px;
+	filter: invert(0.05);
+}
+@media only screen and (max-width: 800px)
+{
+	.divBG
+	{
+		min-height: 1000px;
+	}
+}
+
+
+
+.divForm
+{
+	box-shadow: 0px 0px 5px 5px rgb(225,138,7);
+	border-radius: 25px;
+	float: left;
+	background-color: rgba(0,0,0,0.3);
+	min-height: 600px;
+	width: 94%;
+	margin: 4%;
+	margin-top: 6%;
+	margin-right: 1%;
+	margin-left: 3%;
+}
+.ContactUs
+{
+	font-weight: bold;
+	font-size: 20px;
+}
+.ContactUs h1
+{
+	margin-bottom: 0;
+	text-shadow: -1px 0 rgb(225,138,7), 0 1px rgb(225,138,7), 1px 0 rgb(225,138,7), 0 -1px rgb(225,138,7);
+}
+.ContactUs p
+{
+	margin-top: 0;
+	text-shadow: -1px 0 silver, 0 1px silver, 1px 0 silver, 0 -1px silver;
+}
+
+.divForm hr
+{
+	border: none;
+	border-top: 1px dashed silver;
+}
+
+.ContactFields
+{
+	border-radius: 25px;
+	background-color: rgba(0,0,0,0.7);
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 1%;
+	padding-top: 1%;
+	margin-right: 20%;
+	min-height: 400px;
+}
+.Fname
+{
+	margin-left: 6%;
+}
+.Fname img
+{
+	filter: invert(0.7);
+	float: left;
+	margin-top: 1%;
+}
+.Fname input[type=text]
+{
+	font-size: 18px;
+	border-radius: 10px;
+	margin-top: 1%;
+	margin-left: 1%;
+	width: 39.25%;
+	float: left;
+	padding: 15px 12px;
+}
+.Lname input[type=text]
+{
+	font-size: 18px;
+	border-radius: 10px;
+	margin-top: 1%;
+	margin-left: 1%;
+	width: 39.25%;
+	float: left;
+	padding: 15px 12px;
+}
+.OFields
+{
+	width:87%;
+	margin-left: 6%;
+}
+.OFields img
+{
+	margin-left: 0%;
+	filter: invert(0.7);
+	float: left;
+	margin-top: 1%;
+}
+.OFields input[type=phone]
+{
+	font-size: 18px;
+	border-radius: 10px;
+	margin-left: 0%;
+	width: 89.2%;
+	padding: 15px 12px;
+}
+.OFields .email
+{
+	margin-left: -0%;
+	filter: invert(0.7);
+	float: left;
+	margin-top: 1%;
+}
+.OFields input[type=Email]
+{
+	font-size: 18px;
+	border-radius: 10px;
+	margin-left: 1%;
+	width: 89.2%;
+	padding: 15px 12px;
+}
+.OFields textarea
+{
+	border-radius: 10px;
+	margin-left: 7.3%;
+	width: 89.2%;
+	padding: 15px 12px;
+	font-weight: bold
+}
+
+.ContactFields input[type=submit]
+{
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: -1px 0 rgb(225,138,7), 0 1px rgb(225,138,7), 1px 0 rgb(225,138,7), 0 -1px rgb(225,138,7);
+	color: black;
+	border-radius: 10px;
+	margin-left: 12%;
+	margin-bottom: 2%;
+	width: 78%;
+	padding: 10px 12px;
+	background-color: silver;
+	border-color: rgb(225,138,7);
+}
+.ContactFields input[type=submit]:hover
+{
+	background-color: rgb(225,138,7);
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color: rgb(225,138,7);
+}

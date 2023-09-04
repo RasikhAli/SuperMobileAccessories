@@ -1,0 +1,90 @@
+.divbanner
+{
+	min-height: 400px;
+	/*
+	background-color: grey;
+	*/
+	background-image: url("https://i.ibb.co/515jGVh/19.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	filter: blur(5px);
+	padding-top: 18%;
+}
+.divbannertext1
+{
+	background-color: rgba(0,0,0, 0.5);
+	box-shadow: 0px 0px 10px 0.5px black;	
+	position: absolute;
+	top: 110%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 90%;
+	min-height: 70%;
+}
+.divbannertext1 h1
+{
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 52px;
+	text-align: center;
+	padding: 25px;
+	color: black;
+	text-shadow: -1px 0 rgb(225,138,7), 0 1px rgb(225,138,7), 1px 0 rgb(225,138,7), 0 -1px rgb(225,138,7);	
+}
+.divbannertext1 p
+{
+	font-size: 32px;
+	color: rgb(225,138,7);
+	text-align: justify;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.divbannertext1 span
+{
+	font-size: 42px;
+	color: black;
+	text-shadow: -1px 0 rgb(225,138,7), 0 1px rgb(225,138,7), 1px 0 rgb(225,138,7), 0 -1px rgb(225,138,7);	
+}
+@media only screen and (max-width: 900px)
+{
+	.divbannertext1
+	{
+		top: 70%;
+		min-height: 55%;
+	}
+	.divbannertext1 h1
+	{
+		font-size: 34px;
+		padding: 25px;
+	}
+	.divbannertext1 p
+	{
+		font-size: 24px;
+	}
+	.divbannertext1 span
+	{
+		font-size: 28px;
+	}
+}
+@media only screen and (max-width: 1200px)
+{
+	.divbannertext1
+	{
+		top: 100%;
+		min-height: 55%;
+	}
+	.divbannertext1 h1
+	{
+		font-size: 34px;
+		padding: 25px;
+	}
+	.divbannertext1 p
+	{
+		font-size: 24px;
+	}
+	.divbannertext1 span
+	{
+		font-size: 28px;
+	}
+}

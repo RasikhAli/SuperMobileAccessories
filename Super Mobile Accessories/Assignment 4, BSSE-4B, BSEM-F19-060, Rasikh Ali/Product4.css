@@ -1,0 +1,104 @@
+.divbanner
+{
+	min-height: 500px;
+}
+
+.divproducts
+{
+	background-color: rgba(0,0,0, 0.3) !important;
+	position: absolute;
+	top: 96%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-height: 80%;
+	width: 90%;
+}
+.divproducts a
+{
+	color: black;
+}
+
+
+.divheading1
+{
+	text-shadow: -1px 0 rgb(225,138,7), 0 1px rgb(225,138,7), 1px 0 rgb(225,138,7), 0 -1px rgb(225,138,7);
+}
+.divheading2
+{
+	text-shadow: -1px 0 silver, 0 1px silver, 1px 0 silver, 0 -1px silver;
+}
+.product4
+{
+	background-image: url('https://i.ibb.co/bKRT1CH/142758463-101380875304453-8211372286329994909-n.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	border-radius: 15px;
+	border: 1px dotted rgb(225, 138, 7);
+	width: 40%;
+	min-height: 300px;
+	float: left;
+	margin-right: 60px;
+	filter: brightness(40%);
+	transition: transform .5s, filter 1.5s ease;
+}
+
+.product4:hover
+{
+	filter: brightness(95%);
+	transform: scale(1.1);
+	border-color: silver;
+	text-shadow: -1px 0 silver, 0 1px silver, 1px 0 silver, 0 -1px silver;
+	transition: 1s;
+}
+.productdetails
+{
+	font-size: 28px;
+	font-weight: bold;
+	padding-left: 5%;
+	text-shadow: -1px 0 silver, 0 1px silver, 1px 0 silver, 0 -1px silver;
+}
+.product4details
+{
+	background-color: rgba(0,0,0,0.2);
+	border: 1px dotted silver;
+	border-radius: 15px;
+	box-shadow: 0px 0px 5px 5px silver;
+	padding-left: 20px;
+	color: black;
+	font-weight: bold;
+	text-shadow: -1px 0 rgb(225,138,7), 0 1px rgb(225,138,7), 1px 0 rgb(225,138,7), 0 -1px rgb(225,138,7);
+	min-height: 300px;
+	font-size: 32px;
+	width: 50%;
+	float: left;
+}
+.product4details p span
+{
+	text-shadow: -1px 0 silver, 0 1px silver, 1px 0 silver, 0 -1px silver;
+}
+
+@media only screen and (max-width: 800px)
+{
+	.divbanner
+	{
+		min-height: 400px;
+	}
+
+	.divproducts
+	{
+		top: 80%;
+		min-height: 50%;
+	}
+
+	.product4
+	{
+		width: 30%;
+		min-height: 150px;
+	}
+	.product4details
+	{
+		min-height: 150px;
+		font-size: 16px;
+	}
+}
